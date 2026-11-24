@@ -1,0 +1,103 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+/* Encabezado */
+
+header {
+    background-color: #1f4e79;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Menú */
+
+nav {
+    background-color: #333333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+/* Contenido */
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #1f4e79;
+}
+
+/* Imagen */
+
+img {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+/* Tarjetas */
+
+.tarjetas {
+    display: flex;
+    gap: 20px;
+}
+
+.tarjeta {
+    flex: 1;
+    padding: 20px;
+    background-color: #e8f1f8;
+    border: 2px solid #1f4e79;
+    border-radius: 10px;
+}
+
+/* Botón */
+
+button {
+    background-color: #1f4e79;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Pie de página */
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
